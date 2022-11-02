@@ -1,0 +1,38 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    background-color: bisque;
+    width: 40%;
+
+}
+nav{
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: bisque;
+
+}
+
+li a {
+    background-color: teal;
+    color: antiquewhite;
+    width: 10em;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+}
+
+li a:hover {
+    background-color: #00b3b3;
+}
