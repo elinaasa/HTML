@@ -2,83 +2,53 @@
     width: 60%;
     margin: auto;
 }
-html{
-    font-family: "Bookman Old Style", serif;
-}
-
-body {
-    margin: 0;
-}
 
 header {
     display: flex;
-    padding: 1rem;
-    margin: 0;
+    list-style: none;
+    text-decoration: none;
+
 }
 
 nav {
-    width: 60%;
+    list-style: none;
+    text-decoration: none;
+
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    background-color: bisque;
-    padding: 0;
-    margin: 0;
-}
-
-li a {
-    background-color: teal;
-    color: antiquewhite;
-    width: 10em;
-    display: block;
-    text-align: center;
-    line-height: 3rem;
+    list-style: none;
     text-decoration: none;
+
 }
 
-li a:hover {
-    background-color: #00b3b3;
+ul a {
+    list-style: none;
+    text-decoration: none;
+
 }
 
-main {
-    padding: 1rem;
-    display: flex;
-    background-color: aquamarine;
+.home {
+
 }
 
-.kuva{
-    display: flex;
+h2 {
+
 }
 
 article {
+    display: flex;
+}
+
+.products {
+    display: flex;
 
 }
 
-figure {
-    float: left;
-    margin: 0 1rem 1rem 0;
-    border-width: 1px;
-    border-radius: 8px;
-}
-img{
-    border-radius: 8px 8px 0 0;
+h3 {
+
 }
 
-footer {
-    padding: 1rem;
-}
-
-form {
-    width: 30%;
-    margin: auto;
-    padding: 2rem;
-}
-
-h1 {
-    background-color: bisque;
-    width: 40%;
+h4 {
 
 }
