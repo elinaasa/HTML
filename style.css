@@ -9,6 +9,9 @@ header {
     text-decoration: none;
 
 }
+main{
+    display: flex;
+}
 
 nav {
     list-style: none;
