@@ -1,6 +1,9 @@
 .container {
-    width: 60%;
+    width: 90%;
     margin: auto;
+}
+body{
+    background-color: snow;
 }
 
 header {
@@ -9,7 +12,11 @@ header {
     list-style: none;
     text-decoration: none;
     background-color: #eee;
+    justify-content: center;
 
+}
+h2{
+    justify-content: center;
 }
 
 main {
@@ -39,16 +46,20 @@ li a {
     color: #2f444f;
     height: 3rem;
     display: block;
+    text-align: center;
+    line-height: 3rem;
 
 
 }
 
 .home {
-    background-color: #eee;
+    background-color: snow;
+    font-family: 'Roboto Mono', monospace;
 }
 
-h2 {
-
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
 article {
