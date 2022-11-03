@@ -1,21 +1,26 @@
 .container {
-    width: 90%;
     margin: auto;
+    width: 100%;
+    background-color: #eeeeee;
 }
 body{
     background-color: snow;
 }
-
+.logo{
+    background-color: #eeeeee;
+}
 header {
+    padding: 1rem;
     font-family: 'Roboto Mono', monospace;
     display: flex;
     list-style: none;
     text-decoration: none;
     background-color: #eee;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
 
 }
-h2{
+h1{
     justify-content: center;
 }
 
@@ -24,10 +29,13 @@ main {
 }
 
 nav {
+    justify-content: center;
     display: flex;
     list-style: none;
     text-decoration: none;
     background-color: #eee;
+    width: 60%;
+    float: left;
 
 }
 
@@ -36,6 +44,7 @@ ul {
     list-style-type: none;
     text-decoration: none;
     justify-content: space-evenly;
+    background-color: #eeeeee;
 
 }
 
@@ -44,11 +53,15 @@ li a {
     text-decoration: none;
     background-color: #eeeeee;
     color: #2f444f;
-    height: 3rem;
     display: block;
     text-align: center;
     line-height: 3rem;
 
+
+}
+li a:hover{
+    background-color: #2f444f;
+    color: #eeeeee;
 
 }
 
