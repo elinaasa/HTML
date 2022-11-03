@@ -4,35 +4,47 @@
 }
 
 header {
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     list-style: none;
     text-decoration: none;
+    background-color: #eee;
 
 }
-main{
-    display: flex;
+
+main {
+    font-family: 'Roboto Mono', monospace;
 }
 
 nav {
+    display: flex;
     list-style: none;
     text-decoration: none;
+    background-color: #eee;
 
 }
 
 ul {
-    list-style: none;
+    display: flex;
+    list-style-type: none;
     text-decoration: none;
+    justify-content: space-evenly;
 
 }
 
-ul a {
+li a {
     list-style: none;
     text-decoration: none;
+    background-color: #eeeeee;
+    color: #2f444f;
+    height: 3rem;
+    display: block;
+
 
 }
 
 .home {
-
+    background-color: #eee;
 }
 
 h2 {
