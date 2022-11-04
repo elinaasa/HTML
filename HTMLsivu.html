@@ -7,64 +7,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
 <div class="container">
     <header>
         <div class="logo">
-            <img src="logo1.png" alt="logo" width="650" height="170">
+            <img src="#" alt="logo">
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="home">
-            <h1>Your local 3D art supply</h1>
-            <article>
-                <figure>
-                    <img src="https://via.placeholder.com/500x300" alt="kuvaus tähän">
-                    <figcaption>Caption about image</figcaption>
-                </figure>
+        <section id="home">
+            <h1>Tähän otsikko</h1>
+            <article class="frontpage">
+                <img src="https://via.placeholder.com/500x300" alt="kuvaus tähän">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur molestiae officiis!
                     Asperiores autem blanditiis commodi eaque earum fugiat fugit in incidunt labore libero magni nemo
                     quo ratione, reprehenderit repudiandae!</p>
             </article>
         </section>
-        <section class="products">
-            <div>
-                <h2>Products</h2>
-                <article>
+        <section id="products">
+            <h2>Products</h2>
+            <div class="productimg">
+                <img src="https://via.placeholder.com/500x180" alt="kuvaus tähän">
+            </div>
+            <div class="productlist">
+                <article class="product">
                     <h3> Name of the product </h3>
-                    <img src="https://via.placeholder.com/500x300" alt="moi">
+                    <img src="https://via.placeholder.com/200x300" alt="moi">
                     <p> some text </p>
                 </article>
-                <article>
+                <article class="product">
                     <h3> Name of the product </h3>
-                    <img src="https://via.placeholder.com/500x300" alt="moi">
+                    <img src="https://via.placeholder.com/200x300" alt="moi">
                     <p> some text </p>
                 </article>
-                <article>
+                <article class="product">
                     <h3> Name of the product </h3>
-                    <img src="https://via.placeholder.com/500x300" alt="moi">
+                    <img src="https://via.placeholder.com/200x300" alt="moi">
                     <p> some text </p>
                 </article>
             </div>
         </section>
-        <section class="contact">
-            <div>
+        <section id="contact">
+            <div class="contactinfo">
                 <h3>Contact us</h3>
-                <article>
-                    <p>Visit us at:<br/> CompanyX <br/>Karaportti 2 <br/>02340 ESPOO <br/>Finland <br/>Email: <a
-                            href="mailto:sankilaelina@gmail.com">sankilaelina@gmail.com</a> <br/>Phone: <br/> +358
-                        123456789</p>
-                </article>
-                <img src="https://via.placeholder.com/500x300" alt="Kartta">
+                <p>Visit us at:<br/> CompanyX <br/>Karaportti 2 <br/>02340 ESPOO <br/>Finland <br/>Email: <a
+                        href="mailto:sankilaelina@gmail.com">sankilaelina@gmail.com</a> <br/>Phone: <br/> +358
+                    123456789</p>
             </div>
+            <img src="https://via.placeholder.com/500x300" alt="Kartta">
         </section>
     </main>
 </div>
