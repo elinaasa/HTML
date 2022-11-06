@@ -69,7 +69,7 @@ li a:hover {
 main {
     font-family: 'Roboto Mono', monospace;
     height: 100%;
-    background-image: url("background3.jpg");
+    background-image: url("img/background3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: 100% auto;
